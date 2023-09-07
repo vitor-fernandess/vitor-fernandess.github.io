@@ -1,0 +1,73 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    padding: 24px;
+}
+
+.heading a{
+    font-size: 45px; color: rgb(94, 94, 200);
+}
+
+body{
+    background-color: rgb(107, 107, 107);
+}
+.main{
+text-align: center;
+margin-top: 40px;
+font-size: 20pt;
+padding: 30px;
+}
+
+.grid-row{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(107, 107, 107);
+    padding: 10px;
+    height: 30pt;
+    
+
+}
+.item-grid{
+    background-color: black;
+    color: rgb(94, 94, 200);
+    border: 2px solid rgb(94, 94, 200);
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Bebas Neue', sans-serif;
+}
+.intro p{
+    font-size: 20pt;
+    background-color: black;
+    color: rgb(94, 94, 200);
+    text-align: center;
+    padding: 20px 35px 20px 35px;
+
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%
+    }
+}
+@media only screen and (max-width: 600px){
+    .grid-row{
+        column-gap: 0px;
+        row-gap: 2px;
+        grid-template-columns: none;
+        margin: 0px 20px 150px 20px;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    .item-grid{
+        height: 20pt;
+        padding: 5px;
+     }
+}       
