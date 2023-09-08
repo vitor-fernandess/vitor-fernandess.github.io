@@ -1,0 +1,109 @@
+*{
+    text-decoration: none;
+    margin:0; 
+    padding:0;
+}
+.navbar{
+    background-color: black;
+    font-family: 'bebas neue', sans-serif;
+    font-size: 45px;
+    padding: 24px;
+}
+body{
+    background-color: rgb(107, 107, 107);
+}
+.heading a{
+    font-size: 45px; color: rgb(94, 94, 200);
+}
+.main{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20pt;
+    padding: 30px;
+    }
+    .grid-row{
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto auto auto;
+        background-color: rgb(107, 107, 107);
+        padding: 10px;
+        height: 30pt;
+        
+    
+    }
+    .item-grid{
+        background-color: black;
+        color: rgb(94, 94, 200);
+        border: 2px solid rgb(94, 94, 200);
+        font-size: 20pt;
+        text-align: center;
+        font-weight: bold;
+        font-family:'Bebas Neue', sans-serif;
+    }
+    @media only screen and (max-width: 600px) {
+        body{
+            width: 100%
+        }
+    }
+    @media only screen and (max-width: 600px){
+        .grid-row{
+            column-gap: 0px;
+            row-gap: 2px;
+            grid-template-columns: none;
+            margin: 0px 20px 150px 20px;
+            
+        }
+    }
+    @media only screen and (max-width: 600px){
+        .item-grid{
+            height: 20pt;
+            padding: 5px;
+         }
+    }       
+footer{
+    background-color: black;
+    padding: 3px;
+    display: block;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 99.5%;
+    height: 20px;
+}   
+.photo{
+    width: 350px;
+    margin-left: 13px;
+    
+}
+.subtitle{
+    font-size: 25pt;
+    background-color: black;
+    padding: 15px;
+}
+.subtext{
+    margin-left: 13px;
+    color: rgb(94, 94, 200)
+}
+.explanation {
+    text-align: left;
+    font-size: 20pt;
+    padding: 20px 20px 0px 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        column-gap: 0px;
+        row-gap: 2px;
+        grid-template-columns: none;
+        margin: 0px 20px 15px 20px;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+        .photo{
+            width: 250px;
+        }
+    }
