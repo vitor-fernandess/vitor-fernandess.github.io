@@ -71,3 +71,56 @@ padding: 30px;
         padding: 5px;
      }
 }       
+footer{
+    background-color: black;
+    padding: 3px;
+    display: block;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 99.3%;
+    height: 20px;
+}   
+.photo{
+    width: 350px;
+    margin-left: 13px;
+    
+}
+.subtitle{
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 25pt;
+    background-color: black;
+    padding: 15px;
+}
+.subtext{
+    margin-left: 13px;
+    color: rgb(94, 94, 200)
+}
+.explanation {
+    text-align: left;
+    font-size: 20pt;
+    padding: 20px 20px 0px 20px;
+}
+.explanation-b {
+    text-align: left;
+    font-size: 20pt;
+    padding: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        column-gap: 0px;
+        row-gap: 2px;
+        grid-template-columns: none;
+        margin: 0px 20px 15px 20px;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+        .photo{
+            width: 250px;
+        }
+    }
